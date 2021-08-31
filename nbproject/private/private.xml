@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/html/phone/web/css/site.css</file>
+            <file>file:/var/www/html/phone/views/site/viewphone.php</file>
+            <file>file:/var/www/html/phone/models/InputData.php</file>
+            <file>file:/var/www/html/phone/views/site/inputdata.php</file>
+            <file>file:/var/www/html/phone/models/shtrafbat.php</file>
+            <file>file:/var/www/html/phone/controllers/SiteController.php</file>
+            <file>file:/var/www/html/phone/models/viewphone.php</file>
+            <file>file:/var/www/html/phone/views/site/shtrafbat.php</file>
+            <file>file:/var/www/html/phone/models/employees.php</file>
+            <file>file:/var/www/html/phone/views/layouts/main.php</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,16 @@
+Ізолятор ИПТ-6-10/250 А О1
+
+select * from  city
+select distinct substr(get_istreet(addr,4),1,position('&' in get_istreet(addr,4))-1) as nazv,
+substr(get_istreet(addr,4),position('&' in get_istreet(addr,4))+1) as street
+from clm_paccnt_tbl 
+
+select * from adk_class_tbl 
+select * from streettype
+
+update adk_class_tbl 
+set short_prefix = 'урочище'
+where short_prefix = 'уроч'
+
+ALTER TABLE streettype
+    add COLUMN name_old char(12)

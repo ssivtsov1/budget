@@ -1,0 +1,9 @@
+create view vw_rem as
+select 'Всі підрозділи' as rem,-1 as ID,-1 as sort
+union
+SELECT `РЕМ` as rem,max(id) as ID,
+case when locate("РЕМ",`РЕМ`)>0 then 0 else 1 end as sort
+FROM `заказ` 
+where `РЕМ` is not null
+group by `РЕМ`
+order by 3,1
